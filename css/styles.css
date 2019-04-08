@@ -1,8 +1,7 @@
 body {
-    background-image: url("../images/football_background_alt.jpg");
+    background-image: url("../images/banner.jpg");
     background-attachment: fixed;
     background-size: 100%;
-    background-color : #000000;
     font-family: 'Open Sans', 'Calibri', sans-serif;
     margin: 0;
     padding: 0;
@@ -13,21 +12,16 @@ body p {
 }
 
 #heading {
-    box-shadow: 0.25em 0.25em 0.25em #000000;
     background-color: #083674;
     padding: 0.5em;
     text-align: center;
 }
 
 #heading h1 {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: 'Oswald', 'Impact', sans-serif;
     font-size: 2.5em;
     margin-bottom: 0.3em;
-}
-
-#navbar {
-    background-color: #FB1B19;
 }
 
 #navbar ul {
@@ -43,8 +37,8 @@ body p {
 }
 
 #navbar a, #navbar li {
-    color: #FFFFFF;
-    font-family: 'Oswald', 'Impact', sans-serif;
+    color: #ffffff;;
+    font-family: "Source Sans Pro",sans-serif;
     font-weight: 400;
     font-size: 1.1em;
 }
