@@ -1,0 +1,100 @@
+body {
+    background-image: url("../images/football_background_alt.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color : #000000;
+    font-family: 'Open Sans', 'Calibri', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body p {
+    text-align: justify;
+}
+
+#wrapper {
+    padding: 1em;
+}
+
+.section {
+    border: 0.75em solid;
+    margin: 0.8em 0.4em 0.8em 0.4em;
+    padding: 0.25em 0.75em 0.25em 0.75em;
+    box-shadow: 0.25em 0.25em 0.25em #000000;
+
+}
+
+.section h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Oswald', 'Impact', sans-serif;
+}
+
+.section p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+
+.blue-box {
+    border-color: #083674;
+    background-color: #EEEEFF;
+}
+
+.red-box {
+    border-color: #FB1B19;
+    background-color: #FFECEC;
+}
+
+#heading {
+    box-shadow: 0.25em 0.25em 0.25em #000000;
+    background-color: #083674;
+    padding: 0.5em;
+    text-align: center;
+}
+
+#heading h1 {
+    color: #FFFFFF;
+    font-family: 'Oswald', 'Impact', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 0.3em;
+}
+
+#navbar {
+    background-color: #FB1B19;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li {
+    display: inline-block;
+    margin: 0 0.3em 0 0.3em;
+    padding: 0.4em 1em 0.4em 1em;
+}
+
+#navbar a, #navbar li {
+    color: #FFFFFF;
+    font-family: 'Oswald', 'Impact', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+@media (max-width: 600px) {
+}
+
+@media (min-width: 600px) {
+    #left-column {
+        float: left;
+        width: 50%;
+    }
+
+    #right-column {
+        float: right;
+        width: 50%;
+    }
+}
