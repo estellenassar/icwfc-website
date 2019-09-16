@@ -1,44 +1,179 @@
 body {
-    background-image: url("../images/banner.jpg");
-    background-attachment: fixed;
-    background-size: 100%;
-    font-family: 'Open Sans', 'Calibri', sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: 'Hind Guntur', sans-serif;
+  font-size: 1.25rem;
+  text-align: center;
+
+  color: #053c80;
 }
 
-body p {
-    text-align: justify;
+h1, h2 {
+font-weight: 700;
 }
 
-#heading {
-    background-color: #083674;
-    padding: 0.5em;
-    text-align: center;
+h2 {
+  font-size: 1.5rem;
 }
 
-#heading h1 {
-    color: #ffffff;
-    font-family: 'Oswald', 'Impact', sans-serif;
-    font-size: 2.5em;
-    margin-bottom: 0.3em;
+
+p {
+  margin-bottom: 0;
 }
 
-#navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.container-fluid {
+  padding-bottom: 0;
 }
 
-#navbar li {
-    display: inline-block;
-    margin: 0 0.3em 0 0.3em;
-    padding: 0.4em 1em 0.4em 1em;
+
+
+/* navbar 1 */
+
+.navbar-dark {
+  background-color: #053c80;
+  height: 100px;
 }
 
-#navbar a, #navbar li {
-    color: #ffffff;;
-    font-family: "Source Sans Pro",sans-serif;
-    font-weight: 400;
-    font-size: 1.1em;
+.navbar-logo {
+  height: 70px;
+  margin: 0 30px;
+}
+
+.socials {
+ margin-right: 30px;
+}
+
+.social-icon {
+  padding: 0 5px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #c80c27;
+}
+
+/* navbar 2 */
+
+.navbar-light {
+  height: 40px;
+
+}
+
+.hi {
+  margin: 0 20px;
+}
+
+.nav-link, .navbar-brand {
+  font-size: 1rem;
+  font-family: 'Hind Guntur', sans-serif;
+  font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #053c80;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #c80c27;
+}
+
+/* cover photo */
+
+.cover {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 0 0;
+  margin: 0 0;
+}
+
+.cover-image {
+ width: 100%;
+}
+
+.centered {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.arrow {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  color: #c80c27;
+
+}
+
+/* intro */
+
+.images {
+  position: relative;
+}
+
+.col {
+  margin: 50px 200px;
+}
+
+.intro-image-1 {
+  height: 400px;
+  position: absolute;
+  left: 150px;
+}
+
+.intro-image-2 {
+  height: 400px;
+  position: absolute;
+  right: 150px;
+  top:50px;
+}
+
+.last {
+ padding-top: 450px;
+}
+
+.p-margin {
+  margin-bottom: 16px;
+}
+
+/* boxes */
+
+.boxes {
+  background-color: #053c80;
+  padding: 100px 50px;
+  }
+
+  .card-text {
+    font-size: 1.2rem;
+  }
+
+
+/* sponsors */
+
+.sponsors {
+  color: #053c80;;
+  padding: 50px 200px;
+}
+
+.sponsor-image {
+  height: 100px;
+margin: 30px 0;
+}
+
+/* footer */
+
+footer {
+  padding: 50px 0;
+  background-color: #053c80;
+}
+
+.social-icon {
+  color: white;
+}
+
+.social-icon:hover {
+  color: #c80c27;
+  text-decoration: none;
 }

@@ -1,0 +1,408 @@
+@font-face {
+  font-family: "dusha";
+  src: url(../fonts/fifa-world-cup-russia-2018-dusha/Dusha_-_FIFA_World_Cup_2018.ttf);
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "dusha";
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.relative {
+  position: relative;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.cp {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.block {
+  display: block !important;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.no-cursor {
+  cursor: not-allowed;
+}
+
+/* spacing */
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-45 {
+  margin-top: 45px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.nav-logo {
+  height: 60px;
+  position: absolute;
+  left: 0px;
+  top: 8px;
+  left: 15px;
+}
+
+header {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  background: #002c5f;
+  z-index: 1;
+  top: 0;
+}
+
+header a p {
+  position: absolute;
+  top: 7px;
+  right: 65px;
+  font-weight: bold;
+  background: white;
+  color: red;
+  padding: 7px 10px;
+  border-radius: 4px;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.body-wrapper {
+  min-height: calc(100vh - 120px);
+  background: url(../images/body-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px 25px;
+  padding: 100px 90px 20px 90px;
+}
+
+.group-a,
+.group-b {
+  width: 50%;
+  float: left;
+}
+
+.name {
+  width: 100px;
+  background: white;
+  text-align: center;
+  color: black;
+  border-radius: 4px;
+  padding: 7px 0px;
+  display: block;
+}
+
+.name::before {
+  content: "";
+  width: 10px;
+  height: 1px;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+}
+
+.quarter-match {
+  position: relative;
+  top: -39px;
+  left: -3px;
+}
+
+.quarter-match label::before {
+  content: "";
+  width: 120px;
+  height: 1px;
+  background: white;
+  position: absolute;
+  top: 48%;
+  left: 10px;
+  z-index: 0;
+}
+
+.quarter-match label::after {
+  content: "";
+  width: 1px;
+  height: 77px;
+  background: white;
+  position: absolute;
+  top: -21px;
+  left: 10px;
+}
+
+.semi-match {
+  position: relative;
+  top: 30px;
+}
+
+.semi-match label::before {
+  content: "";
+  width: 115px;
+  height: 1px;
+  background: white;
+  position: absolute;
+  top: 48%;
+  left: 4px;
+  z-index: 0;
+}
+
+.semi-match label::after {
+  content: "";
+  width: 1px;
+  height: 138px;
+  background: white;
+  position: absolute;
+  top: -54px;
+  left: 4px;
+}
+
+.score-section {
+  left: 25px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.semi-match .score-section {
+  top: 492%;
+  left: 50px;
+}
+
+.group-b .pre-quarter-match {
+  left: calc(100% - 100px);
+}
+
+.group-b .name::before {
+  left: -10px;
+}
+
+.group-b .quarter-match {
+  top: -39px;
+  left: calc(100% - 325px);
+}
+
+.group-b .quarter-match label::after {
+  left: inherit;
+  right: 7px;
+}
+
+.group-b .semi-match {
+  top: 24px;
+  left: calc(100% - 566px);
+}
+
+.group-b .semi-match label::before {
+  width: 104px;
+  left: 4px;
+}
+
+.group-b .semi-match label::after {
+  top: -48px;
+  left: inherit;
+  right: 12px;
+}
+
+.quarter-match .score-section {
+  top: 255%;
+  left: 49px;
+}
+
+.group-b .quarter-match .score-section,
+.group-b .semi-match .score-section {
+  left: 30px;
+}
+
+.finals {
+  width: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.finals .name::before {
+  content: none;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.score {
+  color: #ffffff;
+}
+
+.football-icon {
+  height: 15px;
+  position: relative;
+}
+
+/* gallery list */
+
+.gallery-list {
+  padding: 63px 0px 0px 0px;
+  list-style: none;
+}
+
+.gallery-list li {
+  display: block;
+  float: left;
+  padding: 5px;
+}
+
+.gallery-list li img {
+  height: 150px;
+  width: auto;
+}
+
+/* modal popup */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content/Box */
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 10px;
+  border: 1px solid #888;
+  width: 80%;
+  clear: both;
+  overflow: auto;
+}
+
+/* The Close Button */
+
+.close {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  position: absolute;
+  top: 7px;
+  right: 7px;
+}
+
+/* related images popup */
+
+.related img {
+  height: 100px;
+  width: auto;
+  padding: 0px 5px 10px 5px;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.my-slides {
+  display: none;
+  height: 250px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  background: #cccccc;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
