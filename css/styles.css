@@ -2,18 +2,17 @@ body {
   font-family: 'Hind Guntur', sans-serif;
   font-size: 1.25rem;
   text-align: center;
-
   color: #053c80;
 }
 
-h1, h2 {
-font-weight: 700;
+h1 {
+  font-weight: 700;
 }
 
 h2 {
+  font-weight: 700;
   font-size: 1.5rem;
 }
-
 
 p {
   margin-bottom: 0;
@@ -24,8 +23,7 @@ p {
 }
 
 
-
-/* navbar 1 */
+/* blue navbar */
 
 .navbar-dark {
   background-color: #053c80;
@@ -38,7 +36,7 @@ p {
 }
 
 .socials {
- margin-right: 30px;
+  margin-right: 30px;
 }
 
 .social-icon {
@@ -53,11 +51,17 @@ p {
   color: #c80c27;
 }
 
-/* navbar 2 */
+@media (max-width: 768px) {
+  .socials > li > a {
+    display: none;
+ }
+}
+
+
+/* white navbar */
 
 .navbar-light {
   height: 40px;
-
 }
 
 .hi {
@@ -71,12 +75,29 @@ p {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #053c80;
+  color: #053c80;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #c80c27;
+  color: #c80c27;
 }
+
+/*.navbar-light .navbar-toggle {*/
+  /* (40px - button height 34px) / 2 = 3px */
+  /* margin-top: 3px;
+  padding: 9px 10px !important;
+  border: none;
+}*/
+
+/*@media (min-width: 768px) {
+  .test > li > a {*/
+    /* (40px - line-height of 27px) / 2 = 10px */
+    /*padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+ }
+}*/
+
 
 /* cover photo */
 
@@ -89,7 +110,7 @@ p {
 }
 
 .cover-image {
- width: 100%;
+  width: 100%;
 }
 
 .centered {
@@ -104,51 +125,58 @@ p {
   top: 90%;
   left: 50%;
   color: #c80c27;
-
 }
+
 
 /* intro */
 
-.images {
-  position: relative;
+.intro {
+  padding: 50px 0;
 }
 
-.col {
-  margin: 50px 200px;
+.intro .row {
+  margin: 50px 50px;
+  text-align: left;
+}
+
+.intro .text-1 {
+  padding-right: 50px;
+}
+
+.intro .text-2 {
+  padding-left: 50px;
 }
 
 .intro-image-1 {
-  height: 400px;
-  position: absolute;
-  left: 150px;
+  width: 100%;
+  float: right;
 }
 
 .intro-image-2 {
-  height: 400px;
-  position: absolute;
-  right: 150px;
-  top:50px;
+  width: 100%;
 }
 
-.last {
- padding-top: 450px;
-}
-
-.p-margin {
-  margin-bottom: 16px;
+@media (min-width: 1200px) {
+  .intro .text {
+    padding-top: 50px;
+ }
 }
 
 /* boxes */
 
 .boxes {
   background-color: #053c80;
-  padding: 100px 50px;
-  }
+  padding: 50px 50px;
+}
 
-  .card-text {
-    font-size: 1.2rem;
-    padding-bottom: 20px;
-  }
+.card-text {
+  font-size: 1.1rem;
+  padding-bottom: 20px;
+}
+
+.card {
+  margin: 30px 0;
+}
 
 
 /* sponsors */
@@ -160,8 +188,9 @@ p {
 
 .sponsor-image {
   height: 100px;
-margin: 30px 0;
+  margin: 30px 30px;
 }
+
 
 /* footer */
 
