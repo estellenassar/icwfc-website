@@ -8,11 +8,13 @@ body {
 h1 {
   font-size: 2.5rem;
   font-weight: 600;
+  margin-bottom: 0;
 }
 
 h2 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.5rem;
+
 }
 
 p {
@@ -69,7 +71,7 @@ p {
   margin: 0 20px;
 }
 
-.nav-link, .navbar-brand {
+.nav-link {
   font-size: 1rem;
   font-family: 'Hind Guntur', sans-serif;
   font-weight: 600;
@@ -145,37 +147,35 @@ p {
 
 /* intro */
 
-.intro {
+.intro-image {
+  width: 50%;
+  height: auto;
+}
+
+.media {
   padding: 50px 0;
 }
 
-.intro .row {
-  margin: 50px 50px;
-  text-align: left;
+.intro {
+  padding: 50px 50px;
 }
 
-.intro .text-1 {
-  padding-right: 50px;
+.btn-primary {
+  background-color: #c80c27;
+  border: none;
 }
 
-.intro .text-2 {
-  padding-left: 50px;
+.btn-primary:hover {
+  background-color: #053c80;
+  border: none;
 }
 
-.intro-image-1 {
-  width: 100%;
-  float: right;
-}
 
-.intro-image-2 {
-  width: 100%;
-}
-
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .intro .text {
     padding-top: 50px;
  }
-}
+} */
 
 /* boxes */
 
@@ -198,7 +198,7 @@ p {
 
 .sponsors {
   color: #053c80;;
-  padding: 50px 200px;
+  padding: 50px 50px;
 }
 
 .sponsor-image {
