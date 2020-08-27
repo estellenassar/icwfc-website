@@ -1,0 +1,8 @@
+h1 {
+  font-size: 100px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, p {
+  margin-bottom: 50px;
+}

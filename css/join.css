@@ -1,0 +1,17 @@
+.text {
+  padding: 0 50px;
+}
+
+.join-us {
+  margin-bottom: 317px;
+}
+
+.btn-primary {
+  background-color: #c80c27;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #053c80;
+  border: none;
+}
