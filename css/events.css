@@ -1,8 +1,11 @@
-h1 {
-  font-size: 100px;
-  font-family: 'Open Sans', sans-serif;
+.banner {
+  width: 100%;
 }
 
-h1, p {
-  margin-bottom: 50px;
+.text {
+  padding: 0 50px;
+}
+
+.events {
+    margin-bottom: 100px;
 }
