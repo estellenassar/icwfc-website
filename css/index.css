@@ -1,4 +1,4 @@
-/* carosuel */
+/* carousel */
 
 .carousel-caption {
   padding-bottom: 3%;
@@ -88,6 +88,10 @@
 .card-text {
   font-size: 1.1rem;
   padding-bottom: 20px;
+}
+
+.card-img-top:hover {
+  opacity: 0.75;
 }
 
 /* .card {
